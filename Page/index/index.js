@@ -54,7 +54,7 @@ Page({
                 "api-key": "Yz7rQac0roosEv6ROSYOnviGRzk="
               },
               method: "post",
-data:{"123":1,}
+data:{"left_eye":data.data.left_eye.x,"right_eye":data.data.right_eye.x,}
             })
             }
 
